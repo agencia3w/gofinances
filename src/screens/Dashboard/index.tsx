@@ -141,6 +141,7 @@ export function Dashboard() {
     }
 
     useEffect(() => {
+        // remove();
         loadTransactions();
     }, []);
 
